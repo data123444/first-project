@@ -1,0 +1,51 @@
+
+.auth-form-container {
+    width: 300px;
+    height: 300px;
+    display: block;
+    border: 1px solid black;
+    padding: 15px;
+    margin: auto;
+    box-sizing: border-box;
+
+}
+.auth-form-container .text-input-lable {
+    display: block;
+    margin-bottom: 5px;
+}
+.auth-form-container .text-input {
+    height: 30px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.form-group {
+    margin-bottom: 15px;
+
+}
+.submit-button {
+    display: block;
+    width: 100%;
+    height: 35px;
+    background-color: blue;
+    border: 0;
+    color: azure;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.reset-pass-link {
+    display: block;text-align: center;
+    font-size: 12px;
+}
+.location {
+    height: 30px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}

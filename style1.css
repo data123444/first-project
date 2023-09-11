@@ -1,0 +1,97 @@
+/* reset styile */
+body {
+    margin: 0;
+}
+/* global styile */
+.container {
+    width: 1200px;
+    margin: auto;
+}
+/* heder */
+header {
+    height: 70px;
+    background-color: rgb(167, 167, 224);
+}
+.logo {
+    height: 45px;
+    width: 45px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* auth */
+.auth-form-container {
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid #ccc;
+    margin: auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.auth-form-container .text-input-label {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+.auth-form-container .text-input,
+.auth-form-container .location {
+height: 30px;
+width: 100%;
+box-sizing: border-box;
+padding-left: 15px;
+padding-right: 15px;
+display: block;
+} 
+.form-group {
+    margin-bottom: 15px;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.w-100 {
+width: 100%;
+}
+.btn-primary {
+background-color: rgb(98, 98, 183);
+color: white;
+}
+.btn-link {
+    text-decoration: none;
+    line-height: 35px;
+    color: blue;
+}
+.btn-link:hover {
+    text-decoration:underline;
+}
+.btn {
+    display: block;
+    font-size: 16px;
+    height: 35px;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+}
+ .submit-button { 
+    display: block;
+    width: 100%;
+    height: 35px;
+    background-color: rgb(112, 112, 228);
+    border: 0;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 15px; 
+}
+.reset-pass-link {
+display: block;
+text-align: center;
+font-size: 12px;
+}
+.sex-container {
+    display: inline-block;
+}
