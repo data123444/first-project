@@ -7,10 +7,21 @@ body {
     width: 1200px;
     margin: auto;
 }
+.d-flex {
+    display: flex;
+}
 /* heder */
 header {
     height: 70px;
     background-color: rgb(167, 167, 224);
+    align-items: center;
+}
+header .container {
+    align-items: center;
+}
+nav {
+    width: calc(100% - 45px);
+    justify-content: space-between;
 }
 .logo {
     height: 45px;
@@ -24,7 +35,17 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
-
+/* footer */
+footer {
+    background-color: rgb(91, 110, 129);
+    padding: 15px 0;
+    height: 60px;
+    box-sizing: border-box;
+}
+footer p {
+    text-align: center;
+    margin: 0;
+}
 /* auth */
 .auth-form-container {
     width: 300px;
@@ -94,4 +115,9 @@ font-size: 12px;
 }
 .sex-container {
     display: inline-block;
+}
+.body-container {
+    padding: 30px 0;
+    min-height: calc(100vh - 70px - 60px);
+    box-sizing: border-box;
 }
